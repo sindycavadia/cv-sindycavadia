@@ -1,6 +1,6 @@
 import { InfoCard } from "./InfoCard";
 import { Idiomas } from "./Idiomas";
-//import { ProgrammingLanguages } from "../ProgrammingLanguages";
+import { LenguajesDeProgramacion} from "./LenguajesDeProgramacion";
 
 const Sidebar = () => {
     return (
@@ -18,7 +18,7 @@ const Sidebar = () => {
           <Idiomas />
         </div>
         <div>
-          ProgrammingLanguages 
+        <LenguajesDeProgramacion />
         </div>
         ExtraSkills 
       </div>
